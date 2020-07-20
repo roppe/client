@@ -1,2 +1,0 @@
-# client
-Website for clients

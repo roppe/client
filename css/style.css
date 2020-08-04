@@ -30,14 +30,18 @@
 
     }
 
+
+
+
+
     .main-navigation{
-    background-color: #ffffff;
+    background-color: #2e73ce;
     display: block;
     padding-left: 0;padding-right: 0;
     padding-top: 0;
    
-    background: -webkit-linear-gradient(to right, #00d2ff, #3a7bd5); /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #00d2ff, #3a7bd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /*  background: -webkit-linear-gradient(to right, #00d2ff, #3a7bd5);
+        background: linear-gradient(to right, #00d2ff, #3a7bd5); */
     }
 
     .main-navigation .nav-list .nav-link{
@@ -246,7 +250,7 @@ font-family: 'Mulish', sans-serif;
     padding-top: 80px;
     padding-bottom: 20px;
     background-color: #f2f2f2;
-    background: linear-gradient(to right, #00d2ff, #3a7bd5);
+    /*background: linear-gradient(to right, #00d2ff, #3a7bd5);*/
     }
 
     .left-image{
@@ -336,19 +340,20 @@ font-family: 'Mulish', sans-serif;
     /* HOME PAGE LAYOUT */
 
     #info-description{
-    padding-top: 35px;
+    padding-top: 10px;
     padding-bottom: 35px;
+    background-size: cover;
+    background-image: url(../img/cover-color.jpg);
+    background-repeat: no-repeat;
     }
 
     .home-services-top{
     padding-left: 40px;
-    padding-top: 25px;
+    padding-top: 10px;
     padding-right: 40px;
     margin-top: 25px;
     position: relative;
-    background-size: cover;
-    background-image: url(../img/cover-color.jpg);
-    background-repeat: no-repeat;
+   
     }
 
     .home-services-top h3{
@@ -614,10 +619,22 @@ font-family: 'Mulish', sans-serif;
         .price-banner{
             padding-top: 30px;
             padding-bottom: 30px;
-            background: linear-gradient(to right, #00d2ff, #3a7bd5);
+           /* background: linear-gradient(to right, #00d2ff, #3a7bd5);*/
             border-radius: 20px;
+            background-size: cover;
+            background-image: url(../img/blue-diamond.jpg);
+            background-repeat: no-repeat;
+            width: 100%;
+            position: relative;
         }
 
+        .price-banner .star-img{
+            position: absolute;
+            right: 0;
+            top: -15px;
+            width: 80px;
+            height: 80px;
+        }
         .price-banner h2{
             font-family: 'Mulish', sans-serif;
             font-weight: 600;
@@ -665,7 +682,7 @@ font-family: 'Mulish', sans-serif;
 
 
         #section-services{
-        padding-top: 100px;
+        padding-top: 130px;
         padding-bottom: 25px;
         border-top:1.5px solid  #eee ;
       
@@ -675,21 +692,63 @@ font-family: 'Mulish', sans-serif;
         #section-services .left-one .t-1{
        font-family: 'Mulish', sans-serif;
         font-weight: 600;
-        color: #333;
-        font-size: 36px;
+        color: #2e73ce;
+        font-size: 34px;
         text-align:center;
-        padding-bottom: 5px;
         width: 100%;
-        margin-bottom:10px;
-        margin-top: 10px;
+        margin-bottom:30px;
+        margin-top:0;
 
         }
+
+        #section-services .left-one h6{
+                font-family: 'Mulish', sans-serif;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+    padding-bottom: 5px;
+    width: 100%;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    background-color: #2e73ce;
+    padding-top: 5px;
+    border-radius: 15px;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+     
+             }
+
+             #section-services .left-one h5{
+                font-family: 'Mulish', sans-serif;
+                 font-weight: 600;
+                 color: #2e73ce;
+                 font-size: 20px;
+                 text-align:center;
+                 padding-bottom: 5px;
+                 width: 100%;
+                 margin-bottom:5px;
+                 margin-top: 10px;
+         
+                 }
+
+             #section-services .left-one p{
+                font-family: 'Mulish', sans-serif;
+                 font-weight: 400;
+                 color: #333;
+                 font-size: 14px;
+                 text-align:left;
+                 padding-right: 10px;
+                 width: 100%;
+         
+                 }
 
          .btn-5{
             font-weight: 600;
             color: #fff;
             background-color: #2e73ce;
-            font-size: 18px;
+            font-size: 16px;
             text-align: center;
             margin-top:20px;
             margin-bottom: 30px;
@@ -698,8 +757,8 @@ font-family: 'Mulish', sans-serif;
             display: block;
              margin-left: auto;margin-right: auto;
             width: 250px;
-            padding-top: 13px;
-            padding-bottom: 13px;
+            padding-top: 11px;
+            padding-bottom: 11px;
             text-transform: uppercase;
             border-radius: 5px;
         }
@@ -708,16 +767,7 @@ font-family: 'Mulish', sans-serif;
             color: #fafafa;
         }
 
-        #section-services .left-one p{
-       font-family: 'Mulish', sans-serif;
-        font-weight: 400;
-        color: #333;
-        font-size: 16px;
-        text-align:center;
-        padding-right: 10px;
-        width: 100%;
 
-        }
 
         #section-services .left-one{
         padding-bottom: 20px;
@@ -736,7 +786,7 @@ font-family: 'Mulish', sans-serif;
     width: 45%;
     margin-bottom: 25px;
     margin-right: 23px;
-    border-top-right-radius: 70px;
+   
     background-color: #fff;
     border: 1px solid #eee;
     position: relative;
@@ -745,8 +795,9 @@ font-family: 'Mulish', sans-serif;
     .other-list li img{
     
     display: block;
-    float: left;
-    padding-right: 20px;
+    margin-left:auto;
+    margin-right: auto;
+    padding-right:0;
     
     }
 
@@ -754,16 +805,108 @@ font-family: 'Mulish', sans-serif;
    font-family: 'Mulish', sans-serif;
     font-weight: 600;
     color:#2e73ce;
-    font-size: 25px;
+    font-size: 20px;
     text-align:center;
     padding-bottom: 5px;
     width: 100%;
-    margin-top:70px;
+    margin-top:15px;
     }
 
- 
 
+    /* ggly tub*/
+   
+    #ugly-tub{
+    padding-top: 35px;
+    padding-bottom: 25px;
+    border-top:1.5px solid  #eee ;
 
+    background-color: #fafafa;
+    }
+   
+
+    #ugly-tub .tub-left h2{
+   font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    color: #2e73ce;
+    font-size: 34px;
+    text-align:center;
+    width: 100%;
+    margin-bottom:30px;
+    margin-top:0;
+
+    }
+
+    #ugly-tub .tub-left h6{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+    padding-bottom: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-color: #2e73ce;
+    padding-top: 5px;
+    border-radius: 15px;
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+
+    }
+
+    #ugly-tub .tub-left h5{
+            font-family: 'Mulish', sans-serif;
+             font-weight: 600;
+             color: #2e73ce;
+             font-size: 20px;
+             text-align:center;
+             padding-bottom: 5px;
+             width: 100%;
+             margin-bottom:5px;
+             margin-top: 10px;
+     
+             }
+
+             #ugly-tub .tub-left p{
+            font-family: 'Mulish', sans-serif;
+             font-weight: 400;
+             color: #333;
+             font-size: 14px;
+             text-align:left;
+             padding-right: 10px;
+             width: 100%;
+     
+             }
+
+             #ugly-tub .tub-left .btn-10{
+        font-weight: 600;
+        color: #fff;
+        background-color: #2e73ce;
+        font-size: 16px;
+        text-align: center;
+        margin-top:20px;
+        margin-bottom: 30px;
+        padding-bottom: 0;
+       font-family: 'Mulish', sans-serif;
+        display: block;
+         margin-left: auto;margin-right: auto;
+        width: 250px;
+        padding-top: 11px;
+        padding-bottom: 11px;
+        text-transform: uppercase;
+        border-radius: 5px;
+    }
+
+    .btn-5:hover{
+        color: #fafafa;
+    }
+
+    #ugly-tub .ugly-image{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
   #main-description {
     padding-top: 35px;
@@ -939,6 +1082,16 @@ font-family: 'Mulish', sans-serif;
 
     .c-holder{
     margin-bottom: 30px;
+    }
+
+    .c-holder p{
+        font-family: 'Mulish', sans-serif;
+        font-weight: 400;
+        color: #333;
+        font-size: 14px;
+        text-align: left;
+        margin-bottom: 25px;
+        padding-left: 40px;
     }
 
 
@@ -1443,7 +1596,7 @@ font-family: 'Mulish', sans-serif;
     .ser-other .in-box p{
     font-weight: 400;
     color: #333;
-    font-size: 15px;
+    font-size: 14px;
     text-align: left;
     margin-top: 10px;
     margin-bottom:10px;
@@ -1453,17 +1606,16 @@ font-family: 'Mulish', sans-serif;
     }
 
     .ser-other .in-box h3{
-    font-weight: 600;
-    color:#2e73ce;
-    font-size: 28px;
-    text-align: left;
-    margin-top: 25px;
-    margin-bottom: 15px;
-    padding-bottom: 0;
-    font-family: 'Mulish', sans-serif;
-    padding-left: 20px;
-    width:100%;
-
+        font-weight: 600;
+        color: #2e73ce;
+        font-size: 26px;
+        text-align: left;
+        margin-top: 7px;
+        margin-bottom: 15px;
+        padding-bottom: 0;
+        font-family: 'Mulish', sans-serif;
+        padding-left: 20px;
+        width: 100%;
     }
 
     .ser-other {
@@ -1618,7 +1770,7 @@ font-family: 'Mulish', sans-serif;
        font-family: 'Mulish', sans-serif;
            padding-top: 9px;padding-bottom: 9px;
            padding-left: 20px;padding-right: 20px;
-           background: linear-gradient(to right, #00d2ff, #3a7bd5);
+           background: linear-gradient(to right, #387ad4, #3a7bd5);
            border-radius: ;
         }
     
@@ -1882,8 +2034,9 @@ font-family: 'Mulish', sans-serif;
     position: relative;
     margin-top:0;
     background-color:#f2f2f2;
- 
-
+    background-image: url(../img/shiny-star.png);
+    background-repeat: no-repeat;
+    background-position: 25px 25px;
     }
 
 
@@ -1909,13 +2062,12 @@ font-family: 'Mulish', sans-serif;
        font-family: 'Mulish', sans-serif;
     font-weight: 600;
     color: #2e73ce;
-    font-size: 27px;
+    font-size: 24px;
     text-align: left;
     padding-bottom: 5px;
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     margin-top: 15px;
-    border-left: 5px solid #2e73ce;
     margin-left: 15p;
     padding-left: 20px;
     }
@@ -1935,7 +2087,7 @@ font-family: 'Mulish', sans-serif;
    font-family: 'Mulish', sans-serif;
     font-weight: 400;
     color: #333;
-    font-size: 15px;
+    font-size: 14px;
     text-align: left;
     margin-bottom: 25px;
 
@@ -1955,6 +2107,51 @@ font-family: 'Mulish', sans-serif;
     margin-right: 13px;
     font-size: 9px;
     vertical-align: 1px;
+    }
+
+    .in-box{
+     
+        padding: 20px;
+        position: relative;
+       
+        max-width: 48%;
+    margin-right: 15px;
+    padding-bottom: 0;
+
+    }
+
+     .in-box:last-child{
+        margin-right: 0;
+    }
+
+     .in-box p{
+    font-weight: 400;
+    color: #333;
+    font-size: 14px;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom:10px;
+    font-family: 'Mulish', sans-serif;
+    width: 100%; 
+    padding-left:5px;
+    }
+
+     .in-box .s-title{
+        font-weight: 600;
+        color: #2e73ce;
+        font-size: 20px;
+        text-align: left;
+        margin-top: 7px;
+        margin-bottom: 10px;
+        padding-bottom: 0;
+        font-family: 'Mulish', sans-serif;
+        padding-left:0;
+        width: 100%;
+    }
+
+    .in-box .s-title .fa{
+        margin-right: 10px;
+        font-size: 23px;
     }
 
 
@@ -2004,9 +2201,7 @@ font-family: 'Mulish', sans-serif;
         padding-right: 20px;
         position: relative;
         margin-top: 83px;
-        background: -webkit-linear-gradient(to right, #00d2ff, #3a7bd5); /* Chrome 10-25, Safari 5.1-6 */
-       background: linear-gradient(to right, #00d2ff, #3a7bd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
+        background-color: #2e73ce;
     }
 
     #blue-header  h2 {
@@ -2251,7 +2446,7 @@ font-family: 'Mulish', sans-serif;
     padding-right: 20px;
     position: relative;
     margin-top: 83px;
-    background: linear-gradient(to right, #00d2ff, #3a7bd5);
+    background: linear-gradient(to right, #2e73ce, #3a7bd5);
 
 
     background-size: cover;
@@ -2328,7 +2523,7 @@ font-family: 'Mulish', sans-serif;
     .form-group .upload-btn {
     
        font-size: 15px;
-       background:#229fe6;
+       background:#387ad4;
        border:1px solid #fff;
        color: #fff;
       
@@ -2420,7 +2615,7 @@ font-family: 'Mulish', sans-serif;
         .review-section .text-box-cust h2{
             font-family: 'Mulish', sans-serif;
             font-weight: 600;
-            color: #333;
+            color: #387ad4;
             font-size: 32px;
             text-align:center;
             padding-bottom: 5px;
@@ -2609,7 +2804,7 @@ font-family: 'Mulish', sans-serif;
         padding-bottom: 8px;padding-top: 8px;
         padding-left: 25px;padding-right:25px;
         width: 100%;
-        background-color: #009def;
+        background-color: #2e73ce;
         font-family: 'Mulish', sans-serif;
 
         }
@@ -2638,7 +2833,7 @@ font-family: 'Mulish', sans-serif;
         }
 
         .home-price-list .inner-prices p{
-        color: #009def;
+        color: #2e73ce;
         margin-bottom: 0;
         font-weight: 700;
         font-family: 'Mulish', sans-serif;

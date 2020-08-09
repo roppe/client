@@ -244,13 +244,15 @@ font-family: 'Mulish', sans-serif;
      /* HOME PAGE */
 
     #contact-section{
-
+   margin-top: 93px;
+   height: 550px;
     position: relative;
     background-repeat: no-repeat;
     padding-top: 80px;
     padding-bottom: 20px;
-    background-color: #f2f2f2;
-    /*background: linear-gradient(to right, #00d2ff, #3a7bd5);*/
+  
+    background-size: cover;
+    background-image: url(../img/banner-queens-v2.jpg);
     }
 
     .left-image{
@@ -270,11 +272,9 @@ font-family: 'Mulish', sans-serif;
     display: block;
     padding:30px;
     position: absolute;
-    bottom: -70px;
-    left: 40%;
-    border-top-right-radius: 70px;
-    background-color: #fff;
-    border: 1px solid #eee;
+    top:70px;
+    left: 50px;
+   
     
  
     }
@@ -282,13 +282,14 @@ font-family: 'Mulish', sans-serif;
     .home-info h2{
         font-family: 'Mulish', sans-serif;
         font-weight: 600;
-        color: #2e73ce;
+        color: #fff;
         font-size: 32px;
-        text-align:center;
+        text-align:left;
         padding-bottom: 5px;
         width: 100%;
         margin-bottom: 20px;
         margin-top: 15px;
+        text-transform: uppercase;
     
     }
 
@@ -296,7 +297,7 @@ font-family: 'Mulish', sans-serif;
     .home-info p{
         font-family: 'Mulish', sans-serif;
         font-weight: 400;
-        color: #333;
+        color: #fff;
         font-size: 15px;
         text-align: left;
         margin-bottom: 25px;
@@ -311,13 +312,13 @@ font-family: 'Mulish', sans-serif;
     color: #fff;
     font-size: 14px;
     text-align: center;
-    padding-top: 9px;padding-bottom:9px;
+    padding-top: 13px;padding-bottom:13px;
     width: 180px;  
     display: block;
-    float: right;
+    float: left;;
     margin-top: 25px;
-   background-color: #2e73ce;
-   border-radius: 5px;
+   background-color: #f9af41;
+   border-radius: 20px;
 
 
 
@@ -361,7 +362,7 @@ font-family: 'Mulish', sans-serif;
        font-family: 'Mulish', sans-serif;
         font-weight: 400;
         color: #fff;
-        font-size: 25px;
+        font-size: 21px;
         text-align: center;
         padding-bottom: 5px;
         width: 100%;
@@ -682,7 +683,7 @@ font-family: 'Mulish', sans-serif;
 
 
         #section-services{
-        padding-top: 130px;
+        padding-top: 50px;
         padding-bottom: 25px;
         border-top:1.5px solid  #eee ;
       
@@ -816,7 +817,7 @@ font-family: 'Mulish', sans-serif;
     /* ggly tub*/
    
     #ugly-tub{
-    padding-top: 35px;
+    padding-top: 70px;
     padding-bottom: 25px;
     border-top:1.5px solid  #eee ;
 
@@ -1734,6 +1735,10 @@ font-family: 'Mulish', sans-serif;
         list-style-type:none;
         float: right;
         }
+
+        .adress-nav li{
+            margin-bottom: 10px;
+        }
     
     
         .adress-nav h3 {
@@ -2045,7 +2050,7 @@ font-family: 'Mulish', sans-serif;
     padding-top: 25px;
     padding-right:40px;
     padding-bottom: 25px;
-     border-top-right-radius: 70px; 
+     border-top-left-radius: 70px; 
     background-color: #fff;
     margin-bottom:30px;
 
@@ -2058,12 +2063,18 @@ font-family: 'Mulish', sans-serif;
     margin-left: 20px;
     }
 
+    .header-inside .right-picture{
+        display: block;
+        float:right;
+        margin-top: 20px;
+    }
+
     .header-inside h2{
        font-family: 'Mulish', sans-serif;
     font-weight: 600;
     color: #2e73ce;
     font-size: 24px;
-    text-align: left;
+    text-align: center;
     padding-bottom: 5px;
     width: 100%;
     margin-bottom: 15px;
@@ -2093,6 +2104,17 @@ font-family: 'Mulish', sans-serif;
 
     }
 
+    
+    .header-inside p a{
+        font-family: 'Mulish', sans-serif;
+         font-weight: 500;
+         color: #2e73ce;
+         font-size: 14px;
+         text-align: left;
+         margin-bottom: 25px;
+     
+         }
+
     .header-inside h6{
    font-family: 'Mulish', sans-serif;
     font-weight: 600;
@@ -2109,6 +2131,26 @@ font-family: 'Mulish', sans-serif;
     vertical-align: 1px;
     }
 
+    .header-inside h4{
+        font-family: 'Mulish', sans-serif;
+        font-weight: 600;
+        color: #333;
+        font-size: 17px;   
+        text-align: center;
+        margin-top: 30px;
+      
+    }
+    .header-inside h4 .fa{
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .header-inside h4 a{
+        font-family: 'Mulish', sans-serif;
+        font-weight: 600;
+        color: #2e73ce;
+        font-size: 17px; 
+        text-align: center;  
+    }
     .in-box{
      
         padding: 20px;
@@ -2134,6 +2176,14 @@ font-family: 'Mulish', sans-serif;
     font-family: 'Mulish', sans-serif;
     width: 100%; 
     padding-left:5px;
+    }
+
+    .in-box .in-img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 10px;
+        margin-bottom: 10px;
     }
 
      .in-box .s-title{
@@ -2277,13 +2327,18 @@ font-family: 'Mulish', sans-serif;
 .bottom-text{
     margin-top:40px;
     margin-bottom:50px;
+    background-size: cover;
+    background-image: url(../img/blue-diamond.jpg);
+    background-repeat: no-repeat;
+    padding-top: 35px;padding-bottom: 35px;
+    border-radius: 20px;
 }
 
 .bottom-text h2{
      font-family: 'Mulish', sans-serif;
     font-weight: 600;
-    color: #2e73ce;
-    font-size: 38px;
+    color: #fff;
+    font-size: 34px;
     text-align: center;
     padding-bottom: 5px;
     width: 100%;
@@ -2294,11 +2349,11 @@ font-family: 'Mulish', sans-serif;
 .bottom-text .btn-10 {
     font-weight: 600;
     color: #fff;
-    background-color: #2e73ce;
+    background-color: #f9af41;
     font-size: 18px;
     text-align: center;
-    margin-top: 20px;
-    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-bottom: 5px;
     padding-bottom: 0;
     font-family: 'Mulish', sans-serif;
     display: block;
@@ -2314,8 +2369,8 @@ font-family: 'Mulish', sans-serif;
 .bottom-text h2 span{
      font-family: 'Mulish', sans-serif;
     font-weight: 400;
-    color: #2e73ce;
-    font-size: 35px;
+    color: #fff;
+    font-size: 32px;
     text-align: center;
     padding-bottom: 5px;
     width: 100%;
@@ -2442,8 +2497,8 @@ font-family: 'Mulish', sans-serif;
 
     #contact-top {
     padding-top: 35px;
-    padding-bottom: 35px;
-    padding-right: 20px;
+    padding-bottom: 0;
+    padding-right:0;
     position: relative;
     margin-top: 83px;
     background: linear-gradient(to right, #2e73ce, #3a7bd5);
@@ -2451,6 +2506,24 @@ font-family: 'Mulish', sans-serif;
 
     background-size: cover;
     background-repeat: no-repeat;
+    }
+
+    .map{
+        margin-top: 100px;
+        display: block;
+        border-top: 1px solid #fff;
+        padding-top: 20px;
+        background-color: #3d84e3;
+    }
+
+    .map h5{
+        font-family: 'Mulish', sans-serif;
+        font-weight: 600;
+        color: #fff;
+        font-size: 22px;
+        text-align: center;
+        padding-bottom: 20px;
+        width: 100%;   
     }
 
     #contact-top h2 {
@@ -2653,7 +2726,7 @@ font-family: 'Mulish', sans-serif;
         padding-right: 30px;
         padding-top: 20px;
         padding-bottom: 20px;
-        background: #fff url(../img/quote.png) no-repeat top;
+      
         margin-bottom: 15px;
         margin-top: 25px;
         height: 300px;
@@ -2721,6 +2794,8 @@ font-family: 'Mulish', sans-serif;
             position: absolute;
             left: 36%;
             top: -20px;
+            width: 50px;
+            height: 50px;
         
         }
 
@@ -2830,6 +2905,13 @@ font-family: 'Mulish', sans-serif;
         display: block;
         margin-top: 0;
         margin-bottom: 0;
+        }
+
+        .home-price-list .inner-prices h6 img{
+            display: block;
+            margin-right: 25px;
+            float: left;
+            margin-top: -5px;
         }
 
         .home-price-list .inner-prices p{

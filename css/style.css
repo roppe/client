@@ -317,9 +317,10 @@ font-family: 'Mulish', sans-serif;
     display: block;
     float: left;;
     margin-top: 25px;
-   background-color: #f9af41;
+  
    border-radius: 20px;
-
+    text-transform: uppercase;
+    border: 1.5px solid #fff;
 
 
     }
@@ -1677,18 +1678,22 @@ font-family: 'Mulish', sans-serif;
             width: 80%;
         
             }
+
+            .social-footer li a img{
+                margin-right: 10px;
+            }
         
             .social-footer  h3{
            font-family: 'Mulish', sans-serif;
             font-weight: 400;
             color: #fff;
-            text-transform: uppercase;
+         
             font-size: 12px;
             text-align: left; 
             letter-spacing: 1px; 
-            border-bottom: 1px solid #fff;
-            padding-bottom: 12px;
-            margin-bottom: 20px;
+          
+            padding-bottom:0;
+            margin-bottom: 10px;
             width:60%;
             }
         
@@ -2557,7 +2562,7 @@ font-family: 'Mulish', sans-serif;
     padding-left: 30px;padding-right: 30px;
     padding-bottom: 30px;padding-top:15px;
     width: 100%;
-    background-color:transparent;
+    background-color: #2c66b4;
   
     /*background-image: -webkit-linear-gradient(0deg, #251c6e 0%, #362a91 52%, #4638b3 100%);*/
     position: relative;
@@ -2596,9 +2601,9 @@ font-family: 'Mulish', sans-serif;
     .form-group .upload-btn {
     
        font-size: 15px;
-       background:#387ad4;
+       background: #fafafa;
        border:1px solid #fff;
-       color: #fff;
+       color: #333;
       
 
     }
@@ -2608,8 +2613,8 @@ font-family: 'Mulish', sans-serif;
     .contact-us-form  .send-message{
         font-family: 'Mulish', sans-serif;
         font-weight: 600;
-        color: #ffffff;
-        font-size: 20px;
+        color: #ffffff !important;
+        font-size: 24px;
         letter-spacing: 2px;
         text-transform: uppercase;
         border-radius: 3px;
@@ -2625,14 +2630,15 @@ font-family: 'Mulish', sans-serif;
         display: block;
         width: 89%;
         position: absolute;
-        bottom: -25px;
+        bottom: -35px;
+        border-radius:10px;
 
     }
 
     .contact-us-form .contact-form-control{
     font-size: 14px;
     color: #ffffff;
-    background:transparent;
+    background: #fafafa;;
    
     border:1.5px solid #fff;
     border-radius: 1px;
@@ -2644,18 +2650,18 @@ font-family: 'Mulish', sans-serif;
     width: 100%;
     }
     .form-control .placeholder{
-    color: #fff !important;
+        color: #333 !important;
     }
 
     .contact-form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-    color: #fff !important;
+    color: #333 !important;
    font-family: 'Mulish', sans-serif;
     font-weight: 600;
     opacity: 1; /* Firefox */
     }
 
     input, textarea{
-    color: #FFF;
+        color: #333 !important;
     }
 
 
@@ -2718,7 +2724,7 @@ font-family: 'Mulish', sans-serif;
 
         .review-section .impression-user{
         background-color: #ffffff;
-        border-radius:0px;
+        border-radius:10px;
         border: 1px solid #efeeee;
         width: 97%;
         position: relative;
@@ -2731,7 +2737,7 @@ font-family: 'Mulish', sans-serif;
         margin-top: 25px;
         height: 300px;
         box-shadow: 0 5px 20px 0 rgba(0,0,0,.1);
-        border-top-right-radius: 70px;
+    
 
         }
 

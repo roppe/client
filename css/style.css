@@ -14,7 +14,7 @@
     .navbar-toggler .navbar-toggler-icon .fa{
     font-size: 30px;
     display: block !important;
-    color: #e69906!important;
+    color: #fff !important;
     border:0;
     }
 
@@ -2499,7 +2499,12 @@ font-family: 'Mulish', sans-serif;
 
 
       /*contact page */
-
+    
+      .map-img{
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+      }
     #contact-top {
     padding-top: 35px;
     padding-bottom: 0;
@@ -2537,7 +2542,7 @@ font-family: 'Mulish', sans-serif;
     color: #fff;
     font-size: 38px;
     text-align: center;
-    padding-bottom: 5px;
+    padding-bottom: 25px;
     width: 100%;
     margin-bottom:0;
     margin-top: 15px;
@@ -3026,6 +3031,146 @@ font-family: 'Mulish', sans-serif;
         
        
 
+        .info-service img {
+            display: block;
+            float: none;
+            margin-right:auto;
+            margin-left:auto;
+        }
+
+        .price-banner h2{
+            font-size: 29px;
+            margin-bottom: 20px;
+        }
+
+        .price-banner h3{
+            font-size: 16px;
+        }
+
+        .home-info h2{
+            font-size: 26px;
+        }
+
+        .review-section .text-box-cust h2{
+            font-size: 24px;
+        }
+
+        #ugly-tub .tub-left h2{
+            font-size: 28px;
+        }
+
+        .review-section .impression-user{
+            height: 200px;
+        }
+
+        .impression-user .star {
+            position: absolute;
+            left: 43%;
+            bottom: -3%;
+            width: 13%;
+        }
+
+        .impression-user .people {
+            position: absolute;
+            left: 43%;
+            top: -20px;
+            width: 50px;
+            height: 50px;
+        }
+
+        .review-section .impression-user .name-cst {
+            font-family: 'Mulish', sans-serif;
+            font-weight: 600;
+            color: #292929;
+            font-size: 18px;
+            text-align: center;
+            letter-spacing: 1px;
+            margin-bottom: 5px;
+            margin-top: 20px;
+            position: absolute;
+            bottom: 25px;
+            left: 43%;
+        }
+
+        .header-inside h2{
+            font-size: 22px;
+        }
+
+        .header-inside p{
+            font-size: 14px;
+        }
+
+        .header-inside{
+            padding-right: 20px;
+            padding-left: 20px;
+        }
+
+        .header-inside .right-picture {
+            display: block;
+            float:none;
+            margin-top: 20px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .header-inside {
+            padding-right: 15px;
+            padding-left:15px;
+        }
+        .info-service h6{
+            font-size: 15px;
+            padding-left: 5px;
+        }
+
+        .gall-img h3 {
+            font-size: 26px;
+        }
+
+        .bottom-text h2 {
+            font-size: 29px;
+        }
+
+        .bottom-text h2 span{
+            font-size: 29px;
+        }
+
+        .in-box .s-title{
+            font-size: 18px;
+        }
+
+        .home-services-top h2{
+            font-size: 29px;
+        }
+
+        .home-services-top h3{
+            font-size: 19px;
+        }
+
+        #header-services{
+            padding-right: 0;
+        }
+
+        .adress-nav li a{
+            font-size: 13px !important;
+        }
+
+        .header-inside img {
+            display: block;
+            float: none;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .home-info {
+            display: block;
+            padding: 30px;
+            position: absolute;
+            top: 70px;
+            left:10px;
+        }
+
+
+
         #top-section .tx-box-1 h2{
         font-size: 22px;
         }
@@ -3189,19 +3334,46 @@ font-family: 'Mulish', sans-serif;
     @media (max-width: 767.98px) {
 
 
+       
 
-        .process-steps{
-        max-width: 100%;
-        margin-bottom: 10px;
+       
+
+        .other-list li {
+            display: inline-block;
+            width: 45%;
+            margin-bottom: 25px;
+            margin-right: 5px;
+            background-color: #fff;
+            border: 1px solid #eee;
+            position: relative;
         }
 
-        .process-steps img{
-        display: block;
-        margin-right: auto;
-        margin-left: auto;
-        width: 20%;
+        .other-list {
+            list-style-type: none;
+            padding-left:0;
+            margin-top: 0;
         }
 
+        .other-list li h3{
+            font-size: 17px;
+        }
+
+        #contact-top h2 {
+            font-size: 27px;
+        }
+
+        .in-box {
+            padding: 20px;
+            position: relative;
+            max-width: 44%;
+            margin-right: 15px;
+            padding-bottom: 0;
+        }
+
+        .in-box .s-title {
+            font-size: 16px;
+        }
+        
         #top-section .tx-box-1 h2{
         font-size: 19px;
         }
@@ -3301,7 +3473,115 @@ font-family: 'Mulish', sans-serif;
 	
 	@media (max-width: 575.98px) { 
 	
+     
 
+        .other-list li h3 {
+            font-size: 14px;
+        }
+
+        #section-services .left-one h6{
+            width: 100%;
+        }
+        .info-service h2{
+            font-size: 22px;
+            text-align: center;
+            padding-left: 0;
+        }
+
+        .impression-user .star {
+            position: absolute;
+            left: 48%;
+            bottom: -3%;
+            width: 13%;
+        }
+
+        .social-footer {
+            display: block;
+            float: left;
+            list-style-type: none;
+            width: 100%;
+            padding-left: 20px;
+        }
+        #blue-header h2{
+            font-size: 26px;
+        }
+
+        .bottom-text h2 {
+            font-size: 23px;
+        }
+
+        .bottom-text h2 span{
+            font-size: 23px;
+        }
+
+        .in-box {
+            padding: 20px;
+            position: relative;
+            max-width: 100%;
+            margin-right: 0;
+            padding-bottom: 0;
+        }
+
+        .gall-img h3 {
+            font-size: 21px;
+        }
+
+        .header-inside{
+            border-top-left-radius: 0;
+        }
+        .adress-nav {
+            list-style-type: none;
+            float: right;
+            width: 100%;
+            padding-left: 20px;
+        }
+
+        .review-section .text-box-cust h2 {
+            font-size: 20px;
+        }
+
+        .review-section .impression-user {
+            height: 306px;
+        }
+
+        .home-services-top h2 {
+            font-size: 24px;
+        }
+        .home-services-top h2 {
+            font-size: 24px;
+        }
+
+        .home-price-list .price-header .top-headline{
+            font-size: 17px;
+        }
+
+        .home-price-list .inner-prices{
+            padding-left: 5px;
+        }
+
+        .home-price-list .inner-prices p{
+            font-size: 16px;
+        }
+
+        .home-price-list .inner-prices h6 img {
+            display: block;
+            margin-right: 15px;
+            float: left;
+            margin-top: -5px;
+        }
+
+        .contact-us-form{
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+        #contact-top h2 {
+            font-size: 23px;
+        }
+
+        .info-service{
+            padding-left: 15px;
+        }
         #home-section .text-area h2 span{
             font-size: 24px;
         }
